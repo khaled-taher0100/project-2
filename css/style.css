@@ -1,0 +1,695 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: rgb(208, 208, 208); */
+    perspective: 600px;
+}
+
+header{
+    width: 100%;
+    height: 130px;
+    /* background-color: rgb(121, 86, 126); */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 80%;
+    height: 80px;
+    /* background-color: rgb(253, 204, 140); */
+}
+
+.img1{
+    width: 150px;
+    height: 150px;
+    background-image: url(../imgs/katt9.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: -20px;
+}
+
+.content{
+    width: 55%;
+    height: 100%;
+    /* background-color: cadetblue; */
+    margin-left: 130px;
+    margin-top: -115px;
+    padding-top: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 0, 0);
+}
+
+.Small-Cats{
+    height: 25px;
+    width: 110px;
+    /* background-color: bisque; */
+}
+.Big-Cats{
+    height: 25px;
+    width: 110px;
+    /* background-color: rgb(206, 254, 103); */
+}
+.White-Cats{
+    height: 25px;
+    width: 110px;
+    /* background-color: rgb(255, 170, 66); */
+}
+.Black-Cats{
+    height: 25px;
+    width: 110px;
+    /* background-color: rgb(112, 209, 254); */
+}
+.Colored-Eyes{
+    height: 25px;
+    width: 110px;
+    /* background-color: rgb(191, 140, 254); */
+}
+.More{
+    height: 25px;
+    width: 80px;
+    /* background-color: rgb(245, 124, 140); */
+}
+
+.Small-Cats2{
+    cursor: pointer;
+}
+
+.tabledropdwon{
+    width: 350px;
+    height: 150px;
+    background-color: rgb(230, 230, 230);
+    color: black;
+    font-size: 16px;
+    border: 1px solid black;
+    font-family: none;
+    margin-top: 10px;
+    visibility: hidden;
+    /* transition: 1s; */
+}
+
+.Small-Cats:hover .tabledropdwon{
+    visibility: visible;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.icons{
+    width: 27%;
+    height: 100%;
+    /* background-color: coral; */
+    margin-left: auto;
+    margin-top: -80px;
+    color: rgb(0, 0, 255);
+}
+
+.icons i:hover{
+    scale: 1.2;
+    color: rgba(0, 0, 255, 0.29);
+    transition: 0.7s;
+}
+
+.icons i{
+    font-size: 30px;
+    padding-top: 22px;
+    cursor: pointer;
+}
+
+.icons h4{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-left: 240px;
+    margin-top: -25px;
+}
+
+.space1{
+    margin-left: 30px;
+}
+
+.space2{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+
+.Small-Cats:hover{
+    border-top: 2px solid red;
+    border-bottom: 2px solid rgb(0, 238, 255);
+    border-right: 2px solid rgb(0, 255, 0);
+    border-left: 2px solid rgb(255, 247, 0);
+}
+.Big-Cats:hover{
+    border: 2px solid red;
+    cursor: pointer;
+}
+.White-Cats:hover{
+    border: 2px solid red;
+    cursor: pointer;
+}
+.Black-Cats:hover{
+    border: 2px solid red;
+    cursor: pointer;
+}
+.Colored-Eyes:hover{
+    border: 2px solid red;
+    cursor: pointer;
+}
+.More:hover{
+    border: 2px solid red;
+    cursor: pointer;
+}
+ 
+
+/* ======================== // sec-1 \\  ========================*/
+
+
+.sec-1{
+    width: 80%;
+    height: 80vh;
+    background-color: rgba(159, 84, 14, 0.991);
+    margin: auto;
+}
+
+.sec-1 h1{
+    width: 500px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    padding: 200px 80px;
+}
+
+.sec-1 h4{
+    text-align: center;
+    width: 140px;
+    border: 0px solid;
+    font-size: 20px;
+    background-color: white;
+    margin: 0 80px;
+    margin-top: -150px;
+    cursor: pointer;
+}
+
+.sec-1 .img2{
+    background: url(../imgs/katt6.png) center;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    margin-left: 700px;
+    margin-top: -330px;
+}
+
+.back{
+    margin-top: -500px;
+    margin-left: 450px;
+    color: rgba(255, 255, 255, 0.034);
+    font-size: 350px;
+    color: rgba(7, 7, 7, 0.187);
+}
+
+/* ======================== // sec-2 \\  ========================*/
+
+.sec-2{
+    height: 100vh;
+    width: 80%;
+    /* background-color: cornflowerblue; */
+    margin: auto;
+    margin-top: 100px;
+}
+
+.sec-2 h2{
+    font-size: 27px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.line2{
+    width: 80px;
+    height: 2.5px;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 10px;
+    transition: .8s;
+    margin-bottom: 30px;
+}
+
+.line2:hover{
+    width: 140px;
+}
+
+.sec2-imgs{
+    width: 100%;
+    height: 40%;
+    /* background-color: darkgray; */
+}
+
+.cont-img{
+    height: 360px;
+    /* background-color: rgb(71, 71, 208); */
+    display: flex;
+    justify-content: space-between;
+}
+
+.s2-img1{
+    background-color: rgb(0, 254, 254);
+    width: 24.5%;
+    height: 295px;
+}
+.s2-img2{
+    background-color: rgb(0, 107, 201);
+    width: 24.5%;
+    height: 295px;
+}
+.s2-img3{
+    background-color: rgb(134, 4, 210);
+    width: 24.5%;
+    height: 295px;
+}
+.s2-img4{
+    background-color: rgb(188, 6, 48);
+    width: 24.5%;
+    height: 295px;
+}
+
+.p-img{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* color: rgb(65, 130, 0); */
+}
+
+.h3-img{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 77, 0);
+}
+
+.spac3{
+    text-align: center;
+    width: 25px;
+    height: 29px;
+    background-color: brown;
+    color: white;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: 272px;
+    bottom: 30px;
+    position: relative;
+    visibility: hidden;
+}
+
+.sapn-space{
+    margin-left: -14px;
+}
+
+.s2-img1:hover .spac3{
+    visibility:visible;
+}
+.s2-img2:hover .spac3{
+    visibility:visible;
+}
+.s2-img3:hover .spac3{
+    visibility:visible;
+}
+.s2-img4:hover .spac3{
+    visibility:visible;
+}
+
+
+/* ======================== // sec-3 \\  ========================*/
+
+
+.sec-3{
+    width: 80%;
+    height: 300px;
+    background-color: rgb(253, 179, 94);
+    display: flex;
+    margin: auto;
+    margin-top: -280px;
+}
+
+.part1{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(188, 70, 212);
+}
+
+.part2{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(71, 101, 202);
+
+}
+
+.part3{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(71, 202, 86);
+}
+
+.part1 i{
+    font-size: 40px;
+    margin-left: 10px;
+    color: aqua;
+}
+
+.part1{
+    font-size: 16.5px;
+    color: black;
+}
+
+.conthp{
+    margin-left: 50px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+.spac4{
+    margin-left: 10px;
+    line-height: 22px;
+    color: rgb(0, 0, 0);
+}
+
+.cont3lines{
+    width: 200px;
+    height: 20px;
+    /* background-color: darkgoldenrod; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-left: 380px;
+    margin-top: 50px;
+}
+
+.line1-3{
+    width: 50px;
+    height: 3px;
+    background-color: aqua;
+}
+
+.part2{
+    background: url(../imgs/katn3.jpg) center ;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 22px;
+    padding: 10px;
+    transition: .5s;
+}
+
+.part2:hover{
+    scale: 1.0555;
+}
+
+.part3{
+    background: url(../imgs/katn4.jpg) center ;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 22px;
+    padding: 10px;
+    transition: .5s;
+
+}
+
+.part3:hover{
+    scale: 1.0555;
+}
+
+.h4p2{
+    color: rgba(0, 8, 255, 0.84);
+}
+
+.divfoot{
+    width: 80%;
+    height: 130px;
+    /* background-color: cadetblue; */
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    line-height: 25px;
+    column-rule: 2px solid blue;
+}
+
+.tallline{
+    height: 85px;
+    width: 2px;
+    background-color: black;
+    margin-top: -90px;
+    margin-left: 220px;
+}
+
+.contdf1{
+    width: 15%;
+    height: 80px;
+    text-align: center;
+    /* background-color: blueviolet; */
+}
+.contdf2{
+    width: 15%;
+    height: 80px;
+    text-align: center;
+    /* background-color: rgb(43, 226, 52); */
+}
+.contdf3{
+    width: 15%;
+    height: 80px;
+    text-align: center;
+    /* background-color: rgb(255, 213, 4); */
+}
+.contdf4{
+    width: 15%;
+    height: 80px;
+    text-align: center;
+    /* background-color: rgb(226, 43, 43); */
+}
+.contdf5{
+    width: 15%;
+    height: 80px;
+    text-align: center;
+    /* background-color: rgb(226, 43, 195); */
+}
+
+.bigicon{
+    font-size: 30px;
+}
+
+.moveship:hover{
+    visibility: hidden;
+
+}
+
+.moveship:hover .moveship2{
+    visibility: visible;
+}
+
+.moveship2{
+    visibility: hidden;
+}
+
+/* ======================== // sec-4 \\  ======================== */
+
+.sec-4{
+    width: 80%;
+    height: 100vh;
+    /* background-color: rgba(255, 140, 0, 0.717); */
+    margin: auto;
+}
+
+
+.sec-4 h2{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.line4{
+    width: 80px;
+    height: 2.5px;
+    background-color: black;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    transition: .8s;
+}
+
+.line4:hover{
+    width: 130px;
+}
+
+.contpppp{
+    width: 450px;
+    /* background-color: rgb(253, 65, 65); */
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 17.5px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+
+.contfb , .front4 , .back4{
+    width: 390px;
+    height: 420px;
+    background-color: red;
+}
+
+.front4 , .back4{
+    position: absolute;
+}
+
+.back4{
+    background-color: blue;
+    transform: rotatey(180deg);
+    background: url(../imgs/katn5.jpg) center;
+    background-size: cover;
+    padding: 120px 115px;
+}
+
+.contfb{
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.front4{
+    z-index: 2;
+    backface-visibility: hidden;
+    background: url(../imgs/kat16.jpg) center;
+    background-size: cover;
+}
+
+.contfb:hover{
+    transform: rotateY(180deg);
+}
+
+.contfb i{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(255, 108, 3);
+    color: aqua;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+.fa-star{
+    color: gold;
+    margin-top: 10px;
+}
+
+.blackk{
+    color: black;
+}
+
+.parent4{
+    display: flex;
+}
+
+.parspace{
+    margin-left: 22.5px;
+    margin-right: 22.5px;
+}
+
+.spatop{
+    margin-bottom: 8px;
+}
+
+b{
+    color: blue;
+}
+
+.parent4-2{
+    margin-top: 30px;
+}
+.front4-2{
+    background: url(../imgs/kat17.jpg) center;
+    background-size: cover;
+}
+.front4-3{
+    background: url(../imgs/kat10.jpg) center;
+    background-size: cover;
+}
+.front4-4{
+    background: url(../imgs/kat18.jpg) center;
+    background-size: cover;
+}
+.front4-5{
+    background: url(../imgs/kat19.jpg) center;
+    background-size: cover;
+}
+.front4-6{
+    background: url(../imgs/kat11.jpg) center;
+    background-size: cover;
+}
+
+
+footer{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(0, 68, 255);
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.icons-foot i{
+    font-size: 30px;
+    color: rgb(0, 251, 255);
+    position: relative;
+    font-size: 30px;
+    width:55px;
+    height: 47px;
+    background-color: #3e1d1d;
+    border-radius: 50%;
+    padding-top: 8px;
+
+}
+.icons-foot{
+    width: 40%;
+    text-align: center;
+    margin-left: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.p-foot{
+    margin-top: 80px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.icons-foot i::after{
+    content: "";
+    position: absolute;
+
+    width: 0;
+    height: 0;
+
+    bottom: 0;
+    left: 0;
+
+    border: rgb(1, 238, 255) 2px solid;
+    border-radius: 50%;
+
+    transition: 1s;
+    opacity: 0;
+}
+.icons-foot i:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
